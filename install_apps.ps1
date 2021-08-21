@@ -71,7 +71,7 @@ wsl --set-default-version 2
 # Assign git commits
 choco install gnupg -y
 
-[Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Program Files (x86)\GnuPG\bin", [System.EnvironmentVariableTarget]::Machine)
+[Environment]::SetEnvironmentVariable("Path", $env:Path + ${env:programfiles(x86)} + "\GnuPG\bin", [System.EnvironmentVariableTarget]::Machine)
 
 gpg --full-generate-key
 gpg --list-secret-keys --keyid-format LONG you@example.com
@@ -80,5 +80,5 @@ gpg --armor --export [Secret Key]
 git config --global user.name "jo-araujo"
 git config --global user.email you@example.com
 git config --global user.signingkey [Secret Key]
-git config --global gpg.program "C:\Program Files (x86)\GnuPG\bin\gpg.exe"
+git config --global gpg.program (${env:programfiles(x86)} + "\GnuPG\bin\gpg.exe")
 git config --global commit.gpgsign true

@@ -23,3 +23,10 @@ function PullProfile() {
 	curl -o $PROFILE https://raw.githubusercontent.com/jo-araujo/configuration/main/terminal/Microsoft.PowerShell_profile.ps1
 }
 Set-Alias set-profile PullProfile
+
+function DeepCleanProject() {
+	rimraf --glob ./**/bin
+	rimraf --glob ./**/obj
+	rimraf --glob ./**/.vs
+}
+Set-Alias deep-clean-project DeepCleanProject

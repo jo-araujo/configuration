@@ -50,7 +50,6 @@ winget install -e --id Logitech.Options --accept-source-agreements --silent
 
 winget uninstall cortana
 winget uninstall Clipchamp
-winget uninstall --id Microsoft.OneDrive
 winget uninstall --id Microsoft.OneDriveSync_8wekyb3d8bbwe
 winget uninstall --id Microsoft.Messaging_8wekyb3d8bbwe
 winget uninstall --id Microsoft.BingNews_8wekyb3d8bbwe
@@ -74,7 +73,6 @@ winget uninstall --id Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe
 winget uninstall --id Microsoft.ZuneMusic_8wekyb3d8bbwe
 winget uninstall --id Microsoft.ZuneVideo_8wekyb3d8bbwe
 winget uninstall --id microsoft.windowscommunicationsapps_8wekyb3d8bbwe
-winget uninstall --id MicrosoftTeams_8wekyb3d8bbwe
 winget uninstall --id MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy
 
 ## chocolatey

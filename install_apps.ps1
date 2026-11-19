@@ -135,9 +135,6 @@ git config --global core.editor "code --wait"
 $linuxTools = "$env:programfiles\Git\usr\bin"
 [Environment]::SetEnvironmentVariable("Path", "$env:Path;$linuxTools", [System.EnvironmentVariableTarget]::Machine)
 
-# git aliases
-git config --global alias.rprune "remote prune origin"
-
 # git ssh - assign commits
 ssh-keygen -t rsa -b 4096 -C "you@example.com"
 ssh-keyscan github.com >> ~/.ssh/known_hosts

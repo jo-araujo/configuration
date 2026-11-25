@@ -1,0 +1,33 @@
+{
+    "core": [
+        "Git.Git",
+        "GitHub.cli",
+        "Microsoft.PowerShell",
+        "Microsoft.VisualStudioCode",
+        "Python.Python.3.14",
+        "CoreyButler.NVMforWindows",
+        "7zip.7zip",
+        "ScooterSoftware.BeyondCompare.5",
+        "VideoLAN.VLC",
+        "WinDirStat.WinDirStat",
+        "Logitech.OptionsPlus",
+        "TomEnglert.RegionToShare"
+    ],
+    "business": [
+        "Microsoft.SQLServerManagementStudio.22",
+        "Microsoft.VisualStudio.Professional",
+        "Postman.Postman",
+        "JetBrains.IntelliJIDEA",
+        "RedHat.Podman",
+        "Docker.DockerCompose",
+        "RedHat.Podman-Desktop",
+        "GitHub.Copilot"
+    ],
+    "personal": [
+        "Microsoft.VisualStudio.Community"
+    ],
+    "addons": [
+        "Foxit.FoxitReader",
+        "qBittorrent.qBittorrent"
+    ]
+}
